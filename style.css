@@ -7,31 +7,54 @@
 header {
     display: flex;
     align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin: 10px auto;
+    width: 850px;
+    flex-shrink: 0;
 }
 
-.heading img {
+header img {
+    height: 150px;
+    width: 150px;
+    padding-left: 10px;
+}
+
+.heading div {
     height: 100px;
-    width: 100px;
+    width: 80px;
 }
 
 .cyan {
-    background-color: #00FFFF;
+    background-color: #002966;
 }
 
 .blue {
-    background-color: #0000FF;
+    background-color: #00388C;
 }
 
 .magenta {
-    background-color: #FF00FF;
+    background-color: #0047B3;
 }
 
 .red {
-    background-color: #FF0000;
+    background-color: #004DBF;
 }
 
 .yellow {
-    background-color: #FFFF00;
+    background-color: #0057D7;
+}
+
+.links .words {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.links .colors {
+    font-weight: lighter;
+    font-size: 14px;
+    opacity: .75;
 }
 
 .heading .links {
